@@ -16,13 +16,13 @@
       id: 'v1',
       path: 'v1/',
       title: 'Versão 1 — E05 Balcão em blocos',
-      blurb: "E05 · Balcão em blocos — grade bento de blocos de cor e foto do hero ao rodapé; cardápio em placas de parede (serif itálico), destaques com foto no meio da grade. Refs: Quinoa, Ahy Prime, placas da própria cafeteria."
+      blurb: "Grelha em blocos de cor e fotografia, do início ao rodapé."
     },
     {
       id: 'v2',
       path: 'v2/',
       title: 'Versão 2 — E09 Pôster suíço',
-      blurb: "E09 · Pôster suíço — grade de bordas grossas, H1 gigante, letreiro de chips, destaques com numerais enormes, cardápio-tabela, faixa preta de pedidos e bloco de avaliação na cor da marca. Segura marca de letra com poucas fotos. Refs: Quinoa, Ahy Prime, cartazes suíços."
+      blurb: "Cartaz em grelha suíça: títulos fortes, numeração e muito espaço em branco."
     }
   ];
 
