@@ -47,7 +47,7 @@
       preview.className = 'card-preview';
       var iframe = document.createElement('iframe');
       iframe.src = v.path;
-      iframe.title = 'Prévia ' + v.title;
+      iframe.title = 'Pré-visualização: ' + v.title;
       iframe.loading = 'lazy';
       iframe.setAttribute('tabindex', '-1');
       preview.appendChild(iframe);
@@ -64,7 +64,7 @@
       open.href = v.path;
       open.target = '_blank';
       open.rel = 'noopener noreferrer';
-      open.textContent = 'Abrir em nova aba';
+      open.textContent = 'Abrir num novo separador';
       actions.appendChild(open);
 
       card.appendChild(preview);
@@ -96,7 +96,7 @@
         err.textContent = '';
         showGallery();
       } else {
-        err.textContent = 'Código incorreto. Tente de novo.';
+        err.textContent = 'Código incorreto. Tente novamente.';
         input.focus();
         input.select();
       }
