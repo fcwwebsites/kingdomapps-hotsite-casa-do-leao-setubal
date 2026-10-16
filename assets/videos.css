@@ -1,0 +1,30 @@
+/* Vídeos recentes + cultos (igreja) — acrescentado só em leads com youtube_channel_id / church */
+.yt-box{margin-top:1.5rem;text-align:left}
+.yt-grid{list-style:none;margin:0;padding:0;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.yt-item{margin:0}
+.yt-lite,.yt-frame{position:relative;display:block;width:100%;aspect-ratio:16/9;border:0;padding:0;border-radius:14px;overflow:hidden;background:#111;cursor:pointer}
+.yt-lite img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s ease}
+.yt-lite:hover img,.yt-lite:focus-visible img{transform:scale(1.03)}
+.yt-lite:focus-visible{outline:3px solid var(--brand2,#2f93b4);outline-offset:3px}
+.yt-play{position:absolute;left:50%;top:50%;width:64px;height:44px;margin:-22px 0 0 -32px;border-radius:12px;background:rgba(18,18,18,.82);transition:background .2s}
+.yt-play::after{content:"";position:absolute;left:26px;top:13px;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent #fff}
+.yt-lite:hover .yt-play,.yt-lite:focus-visible .yt-play{background:#c4302b}
+.yt-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-title{margin:.6rem 0 .15rem;font-weight:600;line-height:1.35;font-size:.98rem}
+.yt-date{margin:0;font-size:.85rem;opacity:.7}
+.yt-loading,.yt-fallback{margin:1rem 0}
+.yt-channel{margin-top:1.5rem}
+.btn-yt svg{width:1.15em;height:1.15em}
+.cultos-list{margin:1.25rem auto 0;display:grid;gap:.6rem;max-width:30rem;text-align:left}
+.cultos-list div{display:flex;justify-content:space-between;gap:1rem;padding:.85rem 1.1rem;border:1px solid color-mix(in srgb,var(--brand) 22%,transparent);border-radius:12px;background:color-mix(in srgb,var(--brand) 5%,#fff)}
+.cultos-list dt{font-weight:700;margin:0}
+.cultos-list dd{margin:0;font-variant-numeric:tabular-nums}
+.cultos-note{margin-top:1rem}
+.e6-sec .cultos-list{margin-left:0}
+.pv-list{margin:1.25rem auto 0;display:grid;gap:.6rem;max-width:36rem;text-align:left}
+.pv-list div{padding:.85rem 1.1rem;border:1px solid color-mix(in srgb,var(--brand) 22%,transparent);border-radius:12px;background:color-mix(in srgb,var(--brand) 5%,#fff)}
+.pv-list dt{font-weight:700;margin:0 0 .2rem}
+.pv-list dd{margin:0}
+.cultos-cta{margin-top:1.25rem}
+.e6-sec .pv-list{margin-left:0}
+.e3-cta{background:var(--brand-ink,#222)}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Kingdomapps · Prévia Casa do Leão</title>
+  <link rel="stylesheet" href="gate.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="brand-row">
+      <strong>Kingdomapps</strong>
+      <span>Prévia interna de hotsite</span>
+    </div>
+
+    <!-- Locked state: no version paths, names, links or iframes -->
+    <section id="lock" class="lock" aria-labelledby="lock-title">
+      <h1 id="lock-title">Prévia protegida</h1>
+      <p>Digite o código de 4 dígitos para ver as opções de hotsite deste lead.</p>
+      <form id="pin-form" autocomplete="off">
+        <label for="pin-input">Código de acesso</label>
+        <input
+          id="pin-input"
+          name="pin"
+          type="password"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          maxlength="4"
+          placeholder="••••"
+          required
+          autofocus
+        />
+        <button type="submit">Desbloquear</button>
+        <p class="err" id="pin-err" role="alert"></p>
+      </form>
+    </section>
+
+    <!-- Unlocked: populated only by gate.js after auth -->
+    <section id="gallery" class="hidden" aria-labelledby="gallery-title">
+      <div class="toolbar">
+        <button type="button" id="logout">Bloquear de novo</button>
+      </div>
+      <div class="gallery-head">
+        <h1 id="gallery-title">Igreja Cristã Casa do Leão - Setúbal</h1>
+        <p>Mesmo conteúdo nas duas versões — muda a estrutura do layout (composição, ordem e tratamento das seções). Abra em nova aba para navegar com calma.</p>
+      </div>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <footer>
+      Prévia Kingdomapps · somente uso interno · 2 estruturas de layout.</footer>
+  </div>
+  <script src="gate.js"></script>
+</body>
+</html>
