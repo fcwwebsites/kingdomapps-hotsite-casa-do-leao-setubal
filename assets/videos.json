@@ -2,6 +2,12 @@
   "channel_id": "UC-W2RjIEWczh8-yHcGxG-Ug",
   "videos": [
     {
+      "id": "dTIVc6RSTSc",
+      "title": "Stream em direto de Casa do Leao Setúbal",
+      "date": "2026-10-21T05:35:39+00:00",
+      "thumb": "https://i1.ytimg.com/vi/dTIVc6RSTSc/hqdefault.jpg"
+    },
+    {
       "id": "O6RCu_v8ht4",
       "title": "CULTO DE CELEBRAÇÃO - 18/10/2026",
       "date": "2026-10-18T23:44:59+00:00",
@@ -30,12 +36,6 @@
       "title": "CULTO DE SANTA CEIA - 04/10/2026",
       "date": "2026-10-05T00:57:13+00:00",
       "thumb": "https://i4.ytimg.com/vi/K2CT230G6Vs/hqdefault.jpg"
-    },
-    {
-      "id": "6EBbO6iG93s",
-      "title": "CULTO DE CELEBRAÇÃO - 20/09/2026",
-      "date": "2026-09-20T13:24:04+00:00",
-      "thumb": "https://i3.ytimg.com/vi/6EBbO6iG93s/hqdefault.jpg"
     }
   ]
 }
